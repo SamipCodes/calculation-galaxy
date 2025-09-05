@@ -70,22 +70,26 @@ export default function Home() {
         <div className="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
           {categories.map((cat) => (
             <div
+              className="rounded-2xl p-6 shadow-lg bg-gradient-to-br from-[#868bfa] to-indigo-400/40 hover:shadow-2xl hover:scale-105 transform transition duration-300"
               key={cat.name}
-              className="rounded-2xl p-6 shadow-lg bg-gradient-to-br from-[#4c1d95] to-[#7c3aed] hover:shadow-2xl hover:scale-105 transform transition duration-300"
             >
-              {/* Title */}
-              <div className="flex items-center gap-3 mb-4">
-                <span className="text-3xl">{cat.icon}</span>
-                <h3 className="text-xl font-semibold">{cat.name}</h3>
+              {/* Card Header */}
+              <div className="flex flex-col items-center text-center">
+                <span className="text-5xl mb-4">{cat.icon}</span>
+                <h3 className="text-2xl font-bold text-white group-hover:text-[#ede9fe] transition">
+                  {cat.name}
+                </h3>
               </div>
 
-              {/* Calculator List */}
-              <ul className="space-y-2">
+              {/* Calculator Links */}
+              <ul className="mt-6 space-y-2 text-sm">
                 {cat.calculators.map((calc) => (
                   <li key={calc.href}>
                     <Link
                       href={calc.href}
-                      className="block px-3 py-2 rounded-lg bg-white/10 hover:bg-white/20 transition"
+                      className="block px-3 py-2 rounded-lg 
+                     bg-white/10 hover:bg-white/20 
+                     text-[#ede9fe] transition md:text-lg"
                     >
                       {calc.name}
                     </Link>
