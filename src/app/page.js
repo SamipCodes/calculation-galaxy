@@ -22,7 +22,7 @@ export default function Home() {
       name: "Health Calculators",
       icon: "💪",
       calculators: [
-        { name: "BMI Calculator", href: "/calculators/fitness/bmi" },
+        { name: "BMI Calculator", href: "/bmi" },
         { name: "Calorie Calculator", href: "/calculators/fitness/calorie" },
         { name: "Body Fat Calculator", href: "/calculators/fitness/body-fat" },
         { name: "BMR Calculator", href: "/calculators/fitness/bmr" },
