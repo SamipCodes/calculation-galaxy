@@ -6,47 +6,25 @@ export default function Home() {
       name: "Financial Calculators",
       icon: "💰",
       calculators: [
-        { name: "Loan EMI Calculator", href: "/calculators/financial/emi" },
-        {
-          name: "Investment Calculator",
-          href: "/calculators/financial/investment",
-        },
-        { name: "Tax Calculator", href: "/calculators/financial/tax" },
-        {
-          name: "Retirement Calculator",
-          href: "/calculators/financial/retirement",
-        },
+        { name: "Loan EMI Calculator", href: "/loan-emi-calculator" },
       ],
     },
     {
       name: "Health Calculators",
       icon: "💪",
-      calculators: [
-        { name: "BMI Calculator", href: "/bmi" },
-        { name: "Calorie Calculator", href: "/calculators/fitness/calorie" },
-        { name: "Body Fat Calculator", href: "/calculators/fitness/body-fat" },
-        { name: "BMR Calculator", href: "/calculators/fitness/bmr" },
-      ],
+      calculators: [{ name: "BMI Calculator", href: "/bmi" }],
     },
     {
       name: "Math Calculators",
       icon: "📐",
       calculators: [
-        { name: "Algebra Solver", href: "/calculators/math/algebra" },
-        { name: "Geometry Calculator", href: "/calculators/math/geometry" },
-        { name: "Equation Solver", href: "/calculators/math/equation" },
-        { name: "Percentage Calculator", href: "/calculators/math/percentage" },
+        { name: "Arithmetic Calculator", href: "/math-calculator" },
       ],
     },
     {
       name: "Other Calculators",
       icon: "🛠️",
-      calculators: [
-        { name: "Unit Converter", href: "/calculators/other/unit-converter" },
-        { name: "Date Calculator", href: "/calculators/other/date" },
-        { name: "Age Calculator", href: "/calculators/other/age" },
-        { name: "Random Number Generator", href: "/calculators/other/random" },
-      ],
+      calculators: [{ name: "Age Calculator", href: "/age-calculator" }],
     },
   ];
 

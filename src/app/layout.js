@@ -16,9 +16,17 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Calculation Galaxy | Online Calculators for Finance, Health & More",
   description:
-    "Calculation Galaxy offers a wide range of online calculators including financial, health, math, and utility calculators to make your life easier.",
-  keywords:
-    "online calculators, EMI calculator, BMI calculator, algebra solver, unit converter, financial calculator, health calculator",
+    "Calculation Galaxy offers free online calculators including financial, health, math, and utility tools. Simplify your daily calculations instantly.",
+  keywords: [
+    "online calculators",
+    "EMI calculator",
+    "BMI calculator",
+    "math calculator",
+    "age calculator",
+    "financial calculator",
+    "health calculator",
+    "utility tools",
+  ],
   openGraph: {
     title: "Calculation Galaxy | Online Calculators",
     description:
@@ -30,9 +38,11 @@ export const metadata = {
         url: "https://calculationgalaxy.com/og-image.png",
         width: 1200,
         height: 630,
+        alt: "Calculation Galaxy - Online Calculators",
       },
     ],
     type: "website",
+    locale: "en_US",
   },
   alternates: {
     canonical: "https://calculationgalaxy.com/",

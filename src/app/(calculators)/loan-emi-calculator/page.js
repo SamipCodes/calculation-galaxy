@@ -3,7 +3,7 @@ import LoanEMICalculator from "./LoanEMICalculator";
 export const metadata = {
   title: "Loan EMI Calculator | Calculation Galaxy",
   description:
-    "Easily calculate your monthly loan EMI with our free Loan EMI Calculator. Get accurate results for home loans, personal loans, car loans, and more.",
+    "Easily calculate your monthly loan EMI with our free Loan EMI Calculator. Get accurate results for home, personal, car loans, and more.",
   keywords: [
     "Loan EMI Calculator",
     "EMI calculator",
@@ -11,7 +11,28 @@ export const metadata = {
     "car loan EMI",
     "personal loan EMI",
     "finance tools",
+    "loan repayment",
   ],
+  openGraph: {
+    title: "Loan EMI Calculator - Calculation Galaxy",
+    description:
+      "Use our free Loan EMI Calculator to calculate monthly installments for home, car, and personal loans.",
+    url: "https://calculationgalaxy.com/loan-emi-calculator",
+    siteName: "Calculation Galaxy",
+    images: [
+      {
+        url: "https://calculationgalaxy.com/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Loan EMI Calculator",
+      },
+    ],
+    type: "website",
+    locale: "en_US",
+  },
+  alternates: {
+    canonical: "https://calculationgalaxy.com/loan-emi-calculator",
+  },
 };
 
 export default function LoanEMICalculatorPage() {

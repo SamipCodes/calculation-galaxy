@@ -2,6 +2,15 @@ export const metadata = {
   title: "BMI Calculator - Check Your Body Mass Index | Calculation Galaxy",
   description:
     "Free BMI Calculator online. Enter your weight and height to check your Body Mass Index (BMI) and see if you're underweight, normal, overweight, or obese.",
+  keywords: [
+    "BMI calculator",
+    "Body Mass Index",
+    "health calculator",
+    "fitness tools",
+    "weight calculator",
+    "obesity check",
+    "healthy weight",
+  ],
   openGraph: {
     title: "BMI Calculator - Calculation Galaxy",
     description:
@@ -10,14 +19,17 @@ export const metadata = {
     siteName: "Calculation Galaxy",
     images: [
       {
-        url: "https://calculationgalaxy.com/images/bmi-calculator.png",
+        url: "https://calculationgalaxy.com/og-image.png",
         width: 1200,
         height: 630,
         alt: "BMI Calculator",
       },
     ],
-    locale: "en_US",
     type: "website",
+    locale: "en_US",
+  },
+  alternates: {
+    canonical: "https://calculationgalaxy.com/bmi",
   },
 };
 

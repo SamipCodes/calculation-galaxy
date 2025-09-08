@@ -47,7 +47,7 @@ export default function LoanEMICalculator() {
             step="10000"
             value={loanAmount}
             onChange={(e) => setLoanAmount(Number(e.target.value))}
-            className="w-full"
+            className="w-full h-[3px]"
           />
           <input
             type="text"
@@ -69,7 +69,7 @@ export default function LoanEMICalculator() {
             step="0.1"
             value={interestRate}
             onChange={(e) => setInterestRate(Number(e.target.value))}
-            className="w-full"
+            className="w-full h-[3px]"
           />
           <input
             type="number"
@@ -91,7 +91,7 @@ export default function LoanEMICalculator() {
             max="30"
             value={loanTenure}
             onChange={(e) => setLoanTenure(Number(e.target.value))}
-            className="w-full"
+            className="w-full h-[3px]"
           />
           <input
             type="number"

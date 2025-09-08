@@ -1,4 +1,3 @@
-// app/about/page.js
 export const metadata = {
   title: "About Us | Calculation Galaxy",
   description:
@@ -11,6 +10,26 @@ export const metadata = {
     "finance calculators",
     "health calculators",
   ],
+  openGraph: {
+    title: "About Us - Calculation Galaxy",
+    description:
+      "Get to know Calculation Galaxy — your go-to platform for financial, health, math, and utility calculators.",
+    url: "https://calculationgalaxy.com/about",
+    siteName: "Calculation Galaxy",
+    images: [
+      {
+        url: "https://calculationgalaxy.com/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "About Calculation Galaxy",
+      },
+    ],
+    type: "website",
+    locale: "en_US",
+  },
+  alternates: {
+    canonical: "https://calculationgalaxy.com/about",
+  },
 };
 
 export default function AboutPage() {
